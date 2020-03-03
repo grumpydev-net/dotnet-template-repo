@@ -15,3 +15,5 @@ jobs:
         dotnet-version: 3.1.100
     - name: Build with dotnet
       run: dotnet build src/solution.sln --configuration Release
+    - name: Run tests
+      run: dotnet test src/solution.sln

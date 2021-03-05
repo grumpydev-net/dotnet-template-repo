@@ -11,7 +11,7 @@ namespace consoleapp.test.unit
         public void TestMethod1()
         {
             // Arrange
-            var a = 1; var b = 2;
+            const int a = 1; const int b = 2;
 
             // Act.
             var result = Program.Sum(a, b);
